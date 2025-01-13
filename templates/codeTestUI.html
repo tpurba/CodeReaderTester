@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ccc;
+      overflow-x: auto;
+    }
+    h2 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test Details Viewer</h1>
+  <div id="testDetails">
+    <!-- This div will be dynamically updated by JavaScript -->
+    <p>Loading test details...</p>
+  </div>
+  <div id = "chatGptResponse">
+  <script src="{{ url_for('static', filename='js/codeGetter.js') }}"></script>
+</body>
+</html>

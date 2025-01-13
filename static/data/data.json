@@ -1,0 +1,24 @@
+{
+    "title": "Learn to Read Code",
+    "description": "This website will test people on reading and understanding code.",
+    "languages": [
+        {
+            "id": 1,
+            "name": "java",
+            "num_problems": 6,
+            "link": "javaCodeTest.html"
+        },
+        {
+            "id": 2,
+            "name": "C++",
+            "num_problems": 0,
+            "link": "C++CodeTest.html"
+        },
+        {
+            "id": 3,
+            "name": "Python",
+            "num_problems": 0,
+            "link": "pythonCodeTest.html"
+        }
+    ]
+}
